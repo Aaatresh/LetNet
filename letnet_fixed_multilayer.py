@@ -305,8 +305,8 @@ class dataset(torch.utils.data.Dataset):
         
 if __name__=="__main__":
 
-    gts_dir="./gts_256_256/"                        ## The directory where the ground truth images are stored
-    sensor_dir="./sensor_readings_256_256/"         ## The directory where the blurred images(sensor readings) are stored
+    gts_dir="./gts/"                        ## The directory where the ground truth images are stored
+    sensor_dir="./sensor_readings/"         ## The directory where the blurred images(sensor readings) are stored
     psf_path="./psf/psf_sample.tif"                 ## The directory where the psf is stored
     
     width=256                                       ## sensor width
